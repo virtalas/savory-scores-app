@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Savory Scores: Find the Best Japanese Food in Helsinki</title>
+        <meta name="description" content="Find the best Japanese food in Helsinki, dish by dish. Compare every katsudon, ramen and sushi in town, rate meals in one tap, and build your own top list. Free for iPhone.">
+        <link rel="canonical" href="https://virtalas.github.io/savory-scores-app/website/">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Savory Scores">
+        <meta property="og:title" content="Savory Scores: Find the Best Japanese Food in Helsinki">
+        <meta property="og:description" content="Find the best Japanese food in Helsinki, dish by dish. Compare every katsudon, ramen and sushi in town, rate meals in one tap, and build your own top list. Free for iPhone.">
+        <meta property="og:url" content="https://virtalas.github.io/savory-scores-app/website/">
+        <meta property="og:image" content="https://virtalas.github.io/savory-scores-app/website/assets/og-image.png">
+        <meta property="og:locale" content="en_US">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Savory Scores: Find the Best Japanese Food in Helsinki">
+        <meta name="twitter:description" content="Find the best Japanese food in Helsinki, dish by dish. Compare every katsudon, ramen and sushi in town, rate meals in one tap, and build your own top list. Free for iPhone.">
+        <meta name="twitter:image" content="https://virtalas.github.io/savory-scores-app/website/assets/og-image.png">
+        <meta name="geo.region" content="FI-18">
+        <meta name="geo.placename" content="Helsinki">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16.png">
+        <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+        <meta name="theme-color" content="#0a6cff">
+        <meta name="apple-itunes-app" content="app-id=6499091159">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+        <script src="script.js" defer></script>
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Savory Scores",
+    "description": "A catalog of authentic Japanese food in Helsinki. Search by food category, rate dishes with one question (Would you have it again?), rank by authenticity and build a personal top list.",
+    "operatingSystem": "iOS 18.0 or later, iPadOS",
+    "applicationCategory": "LifestyleApplication",
+    "applicationSubCategory": "Food & Drink",
+    "inLanguage": [
+        "en",
+        "fi",
+        "ja"
+    ],
+    "image": "https://virtalas.github.io/savory-scores-app/website/assets/icon-512.png",
+    "screenshot": [
+        "https://virtalas.github.io/savory-scores-app/website/assets/shot-1.webp",
+        "https://virtalas.github.io/savory-scores-app/website/assets/shot-2.webp",
+        "https://virtalas.github.io/savory-scores-app/website/assets/shot-3.webp",
+        "https://virtalas.github.io/savory-scores-app/website/assets/shot-4.webp"
+    ],
+    "url": "https://virtalas.github.io/savory-scores-app/website/",
+    "installUrl": "https://apps.apple.com/fi/app/savory-scores/id6499091159",
+    "areaServed": {
+        "@type": "City",
+        "name": "Helsinki"
+    },
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "category": "free"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "ratingCount": "2"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Lasse Virtanen"
+    }
+}
+        </script>
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "Where can I find authentic Japanese food in Helsinki?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Look past the restaurant's star rating to the individual dishes. Savory Scores lets you search Helsinki's Japanese food by category, such as katsudon, ramen or tempura, and sort every version by score or by authenticity."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where is the best ramen in Helsinki?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "It depends on your broth: tonkotsu, shoyu, shio, miso or vegan. Search \"Ramen\" in Savory Scores to compare every rated bowl in Helsinki, then build your own ramen top list as you go."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where can I get good sushi in Helsinki?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Skip the all-salmon buffets and look for places where nigiri and sashimi lead the menu, the rice is body-temperature, and the fish varies. In Savory Scores you can search exact dishes like sushi moriawase or chirashi and see real photos."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How can you tell if a Japanese restaurant is authentic?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A short menu, Japanese dish names, teishoku set meals, proper short-grain rice and cooked dishes beyond sushi are all good signs. Savory Scores also lets diners rate authenticity separately from taste."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "What is katsudon, and where can I eat it in Helsinki?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Katsudon is a breaded pork cutlet simmered with egg and onion in dashi, served over rice. Search \"Katsudon\" in Savory Scores to see every katsudon in Helsinki ranked by score, with photos."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Are there izakayas in Helsinki?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes. Several Helsinki restaurants serve izakaya-style small plates like yakitori, karaage and takoyaki with Japanese drinks. Rate each plate in Savory Scores so you remember which ones to order again."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where can I buy Japanese groceries in Helsinki?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Asian supermarkets in central Helsinki and Hakaniemi carry Japanese rice, sauces, noodles and snacks, and larger supermarkets have the basics. Savory Scores' Stores tab lets you rate store-bought items like onigiri and gyoza."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Where can I have a Japanese lunch in Helsinki?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Many Japanese restaurants in Helsinki serve weekday lunch: teishoku set meals, donburi, ramen and sushi sets, usually cheaper than dinner. Search a dish in Savory Scores to pick today's lunch."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Savory Scores useful outside Helsinki?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Savory Scores is a catalog of Japanese food in Helsinki, so it's most useful if you live in or are visiting the Helsinki area. Visitors can browse and save dishes before their trip."
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Is Savory Scores free, and how does rating work?",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yes, Savory Scores is free for iPhone and iPad. To rate a dish you answer one question, \"Would you have it again?\" (Nope, Maybe or Yeah), and can fine-tune it on a 10-point slider next to your previous scores."
+            }
+        }
+    ]
+}
+        </script>
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Savory Scores",
+    "url": "https://virtalas.github.io/savory-scores-app/website/"
+}
+        </script>
+    </head>
+    <body>
+        <div class="score-stripe" aria-hidden="true"><span></span><span></span><span></span></div>
+        <a class="skip-link" href="#main">Skip to content</a>
+        <div class="top-bar">
+            <a class="brand" href="./">
+                <img src="assets/favicon-32.png" srcset="assets/apple-touch-icon.png 2x" width="38" height="38" alt="Savory Scores app icon">
+                Savory Scores
+            </a>
+            <nav class="top-nav" aria-label="Main">
+                <a href="#screenshots">Screenshots</a>
+                <a href="#how-it-works">How it works</a>
+                <a href="#guides">Guides</a>
+                <a href="#faq">FAQ</a>
+                <a class="nav-cta" href="https://apps.apple.com/fi/app/savory-scores/id6499091159">Get the app</a>
+            </nav>
+        </div>
+
+        <main id="main">
+            <!-- HERO -->
+            <header class="hero">
+                <div class="hero-copy" data-reveal="stagger">
+                    <img class="hero-logo" src="assets/logo.webp" alt="Savory Scores" width="600" height="416">
+                    <p class="eyebrow">🇫🇮 Japanese food · Helsinki</p>
+                    <h1>Find the best Japanese food in Helsinki, <em>dish by dish</em>.</h1>
+                    <p class="tagline">Compare every katsudon, ramen and sushi in town. Rate meals with one question, <strong>would you have it again?</strong>, and always know what to order next.</p>
+                    <div class="cta-row">
+                        <a class="store-cta" href="https://apps.apple.com/fi/app/savory-scores/id6499091159"><img class="app-store-badge" src="app_store_badge_en.svg" alt="Download Savory Scores on the App Store" width="180" height="60"></a>
+                        <span class="rating-note"><strong>★★★★★</strong> 5.0 on the App Store · Free</span>
+                    </div>
+                    <ul class="chips">
+                        <li>🍜 Search by dish</li>
+                        <li>🎯 Rank by authenticity</li>
+                        <li>🏆 Your own top lists</li>
+                    </ul>
+                </div>
+                <div class="hero-visual" data-reveal>
+                    <img class="mascot" src="assets/mascot.webp" alt="" aria-hidden="true" width="760" height="596">
+                    <div class="shot"><img src="assets/shot-1.webp" alt="Savory Scores app screenshot: searching the Katsudon category shows every katsudon in Helsinki ranked by average score" width="660" height="1431" fetchpriority="high"></div>
+                    <span class="vote nope" aria-hidden="true">Nope…</span>
+                    <span class="vote maybe" aria-hidden="true">Maybe?</span>
+                    <span class="vote yeah" aria-hidden="true">Yeah!</span>
+                </div>
+            </header>
+
+            <!-- DOWNLOAD -->
+            <section class="download-strip" id="download" aria-label="Download Savory Scores">
+                <div class="download-inner" data-reveal>
+                    <a class="store-cta" href="https://apps.apple.com/fi/app/savory-scores/id6499091159"><img class="app-store-badge" src="app_store_badge_en.svg" alt="Download Savory Scores free on the App Store" width="180" height="60"></a>
+                    <span class="fact">Free<small>to download</small></span>
+                    <span class="fact">★ 5.0<small>on the App Store</small></span>
+                    <span class="fact">iPhone &amp; iPad<small>iOS 18 or later</small></span>
+                    <span class="fact">English · Suomi · 日本語<small>3 languages</small></span>
+                </div>
+            </section>
+
+            <!-- SCREENSHOTS -->
+            <section class="section" id="screenshots" aria-labelledby="screenshots-title">
+                <h2 id="screenshots-title" data-reveal>Every Japanese dish in Helsinki, side by side</h2>
+                <p class="lead" data-reveal>Restaurant star ratings can't tell you <em>what to order</em>. Savory Scores rates the dish itself, so you can compare every gyudon in town in one list.</p>
+                <div class="shots-track" data-reveal="stagger">
+                    <figure>
+                        <div class="shot"><img src="assets/shot-1.webp" alt="Savory Scores app screenshot: searching the Katsudon category shows every katsudon in Helsinki ranked by average score" width="660" height="1431" loading="lazy" decoding="async"></div>
+                        <figcaption><strong>Search by Japanese food category</strong><span>Type a dish like katsudon and see every version in Helsinki, ranked.</span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="shot"><img src="assets/shot-2.webp" alt="Savory Scores app screenshot: rating tempura at Restaurant Kabuki with Nope, Maybe or Yeah buttons" width="660" height="1431" loading="lazy" decoding="async"></div>
+                        <figcaption><strong>Rate meals easily</strong><span>One question: would you have it again? Nope, Maybe or Yeah.</span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="shot"><img src="assets/shot-3.webp" alt="Savory Scores app screenshot: score slider at Yeah 8/10 with previous tempura scores from Genki Sushi and Ravintola Kamome" width="660" height="1431" loading="lazy" decoding="async"></div>
+                        <figcaption><strong>Keep your scores consistent</strong><span>Fine-tune on a 10-point slider next to your previous scores.</span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="shot"><img src="assets/shot-4.webp" alt="Savory Scores app screenshot: gyudon in Helsinki sorted by authenticity in dark mode" width="660" height="1431" loading="lazy" decoding="async"></div>
+                        <figcaption><strong>Rank by authenticity</strong><span>Find the version that tastes most like Japan.</span></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- HOW IT WORKS -->
+            <section class="section" id="how-it-works" aria-labelledby="how-title">
+                <h2 id="how-title" data-reveal>How it works</h2>
+                <p class="lead" data-reveal>Three steps from craving to the best bowl in town.</p>
+                <ol class="steps" data-reveal="stagger">
+                    <li>
+                        <span class="step-num" aria-hidden="true">1</span>
+                        <h3>Search a Japanese dish</h3>
+                        <p>Type katsudon, ramen, tempura or onigiri. See every version in Helsinki with real photos, the restaurant and its average score, and sort by score or by authenticity.</p>
+                    </li>
+                    <li>
+                        <span class="step-num" aria-hidden="true">2</span>
+                        <h3>Rate it in one tap</h3>
+                        <p>After your meal, answer one question: <strong>would you have it again?</strong> Fine-tune on a 10-point slider next to your previous scores.</p>
+                        <div class="vote-demo" aria-hidden="true"><span>Nope…</span><span>Maybe?</span><span>Yeah!</span></div>
+                    </li>
+                    <li>
+                        <span class="step-num" aria-hidden="true">3</span>
+                        <h3>Build your top lists</h3>
+                        <p>Rate a few meals in the same category and Savory Scores ranks them for you. Save dishes, restaurants and whole categories to try next.</p>
+                    </li>
+                </ol>
+                <div class="made-for" data-reveal>
+                    <span class="flag" aria-hidden="true">📍</span>
+                    <p><strong>Made for Helsinki.</strong> Savory Scores is a community catalog of Japanese food in the Helsinki area, from restaurants to the Stores tab for Asian grocery finds. Visiting Finland? Browse and save dishes before your trip. <a href="guides/japanese-food-finland.html">Japanese food in Finland →</a></p>
+                </div>
+            </section>
+
+            <!-- GUIDES -->
+            <section class="section" id="guides" aria-labelledby="guides-title">
+                <h2 id="guides-title" data-reveal>Japanese food guides for Helsinki</h2>
+                <p class="lead" data-reveal>What to order, how to spot the real thing, and where to find it.</p>
+                <ul class="guide-grid" data-reveal="stagger">
+                    <li><a class="guide-card" href="guides/japanese-restaurants-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🏮</span>
+                        <h3>Japanese restaurants in Helsinki</h3>
+                        <p>How to find the authentic places, from sushi counters to shokudō, and skip the fusion buffets.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/best-ramen-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍜</span>
+                        <h3>Best ramen in Helsinki</h3>
+                        <p>Tonkotsu, shio, shoyu or vegan: what to look for in a bowl, and how to find the best one.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/best-sushi-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍣</span>
+                        <h3>Best sushi in Helsinki</h3>
+                        <p>Sushi bar, omakase or buffet? How to judge sushi quality, and where the good stuff hides.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/authentic-japanese-restaurant.html">
+                        <span class="emoji" aria-hidden="true">🔍</span>
+                        <h3>How to tell if a Japanese restaurant is authentic</h3>
+                        <p>Eight signs on the menu, the table and the plate. Check them before you sit down.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/donburi-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍚</span>
+                        <h3>Katsudon, gyudon & donburi in Helsinki</h3>
+                        <p>What each Japanese rice bowl is, how to order it, and where to compare every version in town.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/izakaya-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍶</span>
+                        <h3>Izakaya in Helsinki</h3>
+                        <p>What an izakaya is, what to order, and how to find a Japanese-style pub night in Helsinki.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/japanese-lunch-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍱</span>
+                        <h3>Japanese lunch in Helsinki</h3>
+                        <p>Bento, teishoku, ramen and donburi: how Finnish lunch culture meets Japanese set meals.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/japanese-grocery-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🛒</span>
+                        <h3>Japanese grocery stores in Helsinki</h3>
+                        <p>Where to buy Japanese ingredients and snacks, and how to find the onigiri and sauces worth buying again.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/japanese-food-finland.html">
+                        <span class="emoji" aria-hidden="true">🇫🇮</span>
+                        <h3>Japanese food in Finland</h3>
+                        <p>For visitors and new residents: what to expect from Japanese food in Finland, and where to start.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/rate-restaurant-dishes.html">
+                        <span class="emoji" aria-hidden="true">⭐</span>
+                        <h3>How to rate restaurant dishes</h3>
+                        <p>Why rating the dish beats rating the restaurant, and a one-question system you'll actually keep up.</p>
+                        <span class="read-more">Read the guide</span>
+                    </a></li>
+                </ul>
+            </section>
+
+            <!-- FAQ -->
+            <section class="section faq" id="faq" aria-labelledby="faq-title">
+                <h2 id="faq-title" data-reveal>Frequently asked questions</h2>
+                <p class="lead" data-reveal>Quick answers. Each one links to a full guide.</p>
+                <div class="faq-list" data-reveal>
+                    <details>
+                        <summary>Where can I find authentic Japanese food in Helsinki?</summary>
+                        <div class="faq-answer">
+                            <p>Look past the restaurant&#x27;s star rating to the individual dishes. Savory Scores lets you search Helsinki&#x27;s Japanese food by category, such as katsudon, ramen or tempura, and sort every version by score or by authenticity.</p>
+                            <a class="learn-more" href="guides/japanese-restaurants-helsinki.html">Learn more: Japanese restaurants in Helsinki →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Where is the best ramen in Helsinki?</summary>
+                        <div class="faq-answer">
+                            <p>It depends on your broth: tonkotsu, shoyu, shio, miso or vegan. Search &quot;Ramen&quot; in Savory Scores to compare every rated bowl in Helsinki, then build your own ramen top list as you go.</p>
+                            <a class="learn-more" href="guides/best-ramen-helsinki.html">Learn more: the best ramen in Helsinki →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Where can I get good sushi in Helsinki?</summary>
+                        <div class="faq-answer">
+                            <p>Skip the all-salmon buffets and look for places where nigiri and sashimi lead the menu, the rice is body-temperature, and the fish varies. In Savory Scores you can search exact dishes like sushi moriawase or chirashi and see real photos.</p>
+                            <a class="learn-more" href="guides/best-sushi-helsinki.html">Learn more: the best sushi in Helsinki →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>How can you tell if a Japanese restaurant is authentic?</summary>
+                        <div class="faq-answer">
+                            <p>A short menu, Japanese dish names, teishoku set meals, proper short-grain rice and cooked dishes beyond sushi are all good signs. Savory Scores also lets diners rate authenticity separately from taste.</p>
+                            <a class="learn-more" href="guides/authentic-japanese-restaurant.html">Learn more: 8 signs of an authentic Japanese restaurant →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>What is katsudon, and where can I eat it in Helsinki?</summary>
+                        <div class="faq-answer">
+                            <p>Katsudon is a breaded pork cutlet simmered with egg and onion in dashi, served over rice. Search &quot;Katsudon&quot; in Savory Scores to see every katsudon in Helsinki ranked by score, with photos.</p>
+                            <a class="learn-more" href="guides/donburi-helsinki.html">Learn more: katsudon, gyudon and donburi in Helsinki →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Are there izakayas in Helsinki?</summary>
+                        <div class="faq-answer">
+                            <p>Yes. Several Helsinki restaurants serve izakaya-style small plates like yakitori, karaage and takoyaki with Japanese drinks. Rate each plate in Savory Scores so you remember which ones to order again.</p>
+                            <a class="learn-more" href="guides/izakaya-helsinki.html">Learn more: izakaya in Helsinki →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Where can I buy Japanese groceries in Helsinki?</summary>
+                        <div class="faq-answer">
+                            <p>Asian supermarkets in central Helsinki and Hakaniemi carry Japanese rice, sauces, noodles and snacks, and larger supermarkets have the basics. Savory Scores&#x27; Stores tab lets you rate store-bought items like onigiri and gyoza.</p>
+                            <a class="learn-more" href="guides/japanese-grocery-helsinki.html">Learn more: Japanese grocery stores in Helsinki →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Where can I have a Japanese lunch in Helsinki?</summary>
+                        <div class="faq-answer">
+                            <p>Many Japanese restaurants in Helsinki serve weekday lunch: teishoku set meals, donburi, ramen and sushi sets, usually cheaper than dinner. Search a dish in Savory Scores to pick today&#x27;s lunch.</p>
+                            <a class="learn-more" href="guides/japanese-lunch-helsinki.html">Learn more: Japanese lunch in Helsinki →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Is Savory Scores useful outside Helsinki?</summary>
+                        <div class="faq-answer">
+                            <p>Savory Scores is a catalog of Japanese food in Helsinki, so it&#x27;s most useful if you live in or are visiting the Helsinki area. Visitors can browse and save dishes before their trip.</p>
+                            <a class="learn-more" href="guides/japanese-food-finland.html">Learn more: Japanese food in Finland →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Is Savory Scores free, and how does rating work?</summary>
+                        <div class="faq-answer">
+                            <p>Yes, Savory Scores is free for iPhone and iPad. To rate a dish you answer one question, &quot;Would you have it again?&quot; (Nope, Maybe or Yeah), and can fine-tune it on a 10-point slider next to your previous scores.</p>
+                            <a class="learn-more" href="guides/rate-restaurant-dishes.html">Learn more: how to rate restaurant dishes →</a>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="section final-cta" aria-labelledby="cta-title">
+                <div class="final-card" data-reveal="stagger">
+                    <h2 id="cta-title">Your next favourite dish is already in Helsinki.</h2>
+                    <p>Download Savory Scores free, search for what you're craving, and help build the city's catalog of authentic Japanese food, one <strong>Yeah!</strong> at a time.</p>
+                    <a class="store-cta" href="https://apps.apple.com/fi/app/savory-scores/id6499091159"><img class="app-store-badge" src="app_store_badge_en.svg" alt="Download Savory Scores on the App Store" width="180" height="60" loading="lazy"></a>
+                    <p class="contact">Questions or ideas? savoryscores (at) gmail.com</p>
+                    <img class="final-mascot" src="assets/mascot.webp" alt="Savory Scores cat mascot dreaming of onigiri" width="760" height="596" loading="lazy" decoding="async">
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <a class="footer-brand" href="./">
+                <img src="assets/favicon-32.png" srcset="assets/apple-touch-icon.png 2x" width="32" height="32" alt="" aria-hidden="true">
+                Savory Scores
+            </a>
+            <p class="footer-tag">A catalog of authentic Japanese food in Helsinki, rated dish by dish.</p>
+            <nav class="footer-guides" aria-label="Guides">
+                <a href="guides/japanese-restaurants-helsinki.html">Japanese restaurants in Helsinki</a>
+                <a href="guides/best-ramen-helsinki.html">Best ramen in Helsinki</a>
+                <a href="guides/best-sushi-helsinki.html">Best sushi in Helsinki</a>
+                <a href="guides/authentic-japanese-restaurant.html">How to tell if a Japanese restaurant is authentic</a>
+                <a href="guides/donburi-helsinki.html">Katsudon, gyudon & donburi in Helsinki</a>
+                <a href="guides/izakaya-helsinki.html">Izakaya in Helsinki</a>
+                <a href="guides/japanese-lunch-helsinki.html">Japanese lunch in Helsinki</a>
+                <a href="guides/japanese-grocery-helsinki.html">Japanese grocery stores in Helsinki</a>
+                <a href="guides/japanese-food-finland.html">Japanese food in Finland</a>
+                <a href="guides/rate-restaurant-dishes.html">How to rate restaurant dishes</a>
+            </nav>
+            <nav aria-label="Footer">
+                <a href="https://apps.apple.com/fi/app/savory-scores/id6499091159">Download on the App Store</a>
+                <a href="https://virtalas.github.io/savory-scores-app/terms.html">Terms &amp; Conditions</a>
+                <a href="https://virtalas.github.io/savory-scores-app/privacy-policy.html">Privacy Policy</a>
+            </nav>
+            <p class="copyright">&copy; 2026 Lasse Virtanen · Made in Helsinki</p>
+        </footer>
+    </body>
+</html>

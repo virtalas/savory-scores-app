@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Savory Scores（セイヴァリースコア）：ヘルシンキの美味しい日本食を見つけよう</title>
+        <meta name="description" content="ヘルシンキの本格的な日本食を料理ごとに探せるアプリ。街中のカツ丼、ラーメン、寿司を比べて、ワンタップで評価し、自分だけのランキングを作れます。iPhone向けの無料アプリです。">
+        <link rel="canonical" href="https://virtalas.github.io/savory-scores-app/website/ja/">
+        <link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/">
+        <link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/">
+        <link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/">
+        <link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="Savory Scores">
+        <meta property="og:title" content="Savory Scores（セイヴァリースコア）：ヘルシンキの美味しい日本食を見つけよう">
+        <meta property="og:description" content="ヘルシンキの本格的な日本食を料理ごとに探せるアプリ。街中のカツ丼、ラーメン、寿司を比べて、ワンタップで評価し、自分だけのランキングを作れます。iPhone向けの無料アプリです。">
+        <meta property="og:url" content="https://virtalas.github.io/savory-scores-app/website/ja/">
+        <meta property="og:image" content="https://virtalas.github.io/savory-scores-app/website/assets/og-image.png">
+        <meta property="og:locale" content="ja_JP">
+        <meta property="og:locale:alternate" content="en_US">
+        <meta property="og:locale:alternate" content="fi_FI">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Savory Scores（セイヴァリースコア）：ヘルシンキの美味しい日本食を見つけよう">
+        <meta name="twitter:description" content="ヘルシンキの本格的な日本食を料理ごとに探せるアプリ。街中のカツ丼、ラーメン、寿司を比べて、ワンタップで評価し、自分だけのランキングを作れます。iPhone向けの無料アプリです。">
+        <meta name="twitter:image" content="https://virtalas.github.io/savory-scores-app/website/assets/og-image.png">
+        <meta name="geo.region" content="FI-18">
+        <meta name="geo.placename" content="Helsinki">
+
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/favicon-32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/favicon-16.png">
+        <link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+        <meta name="theme-color" content="#0a6cff">
+        <meta name="apple-itunes-app" content="app-id=6499091159">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@700;800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../styles.css">
+        <script src="../script.js" defer></script>
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "MobileApplication",
+    "name": "Savory Scores",
+    "description": "ヘルシンキの本格的な日本食のカタログ。食べ物のカテゴリーで検索し、ひとつの質問（また注文したいですか？）で料理を評価。本格的さで並べ替えて、自分のランキングを作れます。",
+    "operatingSystem": "iOS 18.0 or later, iPadOS",
+    "applicationCategory": "LifestyleApplication",
+    "applicationSubCategory": "Food & Drink",
+    "inLanguage": [
+        "en",
+        "fi",
+        "ja"
+    ],
+    "image": "https://virtalas.github.io/savory-scores-app/website/assets/icon-512.png",
+    "screenshot": [
+        "https://virtalas.github.io/savory-scores-app/website/assets/shot-1.webp",
+        "https://virtalas.github.io/savory-scores-app/website/assets/shot-2.webp",
+        "https://virtalas.github.io/savory-scores-app/website/assets/shot-3.webp",
+        "https://virtalas.github.io/savory-scores-app/website/assets/shot-4.webp"
+    ],
+    "url": "https://virtalas.github.io/savory-scores-app/website/ja/",
+    "installUrl": "https://apps.apple.com/fi/app/savory-scores/id6499091159",
+    "areaServed": {
+        "@type": "City",
+        "name": "Helsinki"
+    },
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR",
+        "category": "free"
+    },
+    "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "ratingCount": "2"
+    },
+    "author": {
+        "@type": "Person",
+        "name": "Lasse Virtanen"
+    }
+}
+        </script>
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+        {
+            "@type": "Question",
+            "name": "ヘルシンキで本格的な日本食はどこで食べられますか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "お店全体の星評価ではなく、料理ごとの評価を見るのが近道です。Savory Scoresでは、カツ丼、ラーメン、天ぷらなどのカテゴリーでヘルシンキの日本食を検索し、スコア順や本格的さ順に並べ替えられます。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ヘルシンキで美味しいラーメンはどこですか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "好みのスープ次第です。豚骨、醤油、塩、味噌、ヴィーガン。Savory Scoresで「ラーメン」を検索すれば、ヘルシンキで評価されたすべての一杯を比べられ、自分のラーメンランキングも作れます。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ヘルシンキで美味しいお寿司はどこで食べられますか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "サーモンばかりの食べ放題は避けて、握りや刺身がメニューの中心で、シャリが人肌の温度、ネタの種類が多いお店を選びましょう。Savory Scoresでは「盛り合わせ」や「ちらし」など具体的な料理名で検索し、実際の写真を確認できます。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "本格的な日本食レストランはどう見分けますか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "メニューが絞られている、料理名が日本語、定食がある、ちゃんとした短粒米を使っている、寿司以外の料理もある。これらはすべて良いサインです。Savory Scoresでは、味とは別に本格的さも評価できます。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ヘルシンキでカツ丼や牛丼は食べられますか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "はい、何軒かのお店で食べられます。ただし味はお店によってかなり違います。Savory Scoresで「カツ丼」を検索すると、ヘルシンキのカツ丼がスコア順に写真付きで表示されます。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ヘルシンキに居酒屋はありますか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "あります。焼き鳥、唐揚げ、たこ焼きなどの居酒屋風の小皿料理と日本のお酒を出すお店がいくつかあります。一皿ずつSavory Scoresで評価しておけば、次に何を頼むべきか忘れません。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ヘルシンキで日本の食材はどこで買えますか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ヘルシンキ中心部やハカニエミのアジア食材店で、日本のお米、調味料、麺類、お菓子が買えます。大きなスーパーでも基本的なものは揃います。Savory Scoresの「お買い物」タブでは、おにぎりや餃子など市販品の評価もできます。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ヘルシンキで日本食ランチを食べられるお店は？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "ヘルシンキの多くの日本食レストランが平日ランチを出しています。定食、丼、ラーメン、寿司セットなどで、夜より手頃な価格が一般的です。Savory Scoresで料理を検索して、今日のランチを選びましょう。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "ヘルシンキ以外でもSavory Scoresは使えますか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Savory Scoresはヘルシンキの日本食のカタログなので、ヘルシンキ周辺に住んでいる方や訪れる方に最も役立ちます。旅行者の方は、出発前に料理を見て保存しておけます。"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "Savory Scoresは無料ですか？評価はどのように行いますか？",
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "はい、Savory ScoresはiPhone・iPad向けの無料アプリです。料理の評価は「また注文したいですか？」という質問に「いいえ」「多分」「はい」で答えるだけ。過去のスコアを見ながら10段階のスライダーで微調整もできます。"
+            }
+        }
+    ]
+}
+        </script>
+        <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Savory Scores",
+    "url": "https://virtalas.github.io/savory-scores-app/website/ja/",
+    "inLanguage": "ja"
+}
+        </script>
+    </head>
+    <body>
+        <div class="score-stripe" aria-hidden="true"><span></span><span></span><span></span></div>
+        <a class="skip-link" href="#main">本文へスキップ</a>
+        <div class="top-bar">
+            <a class="brand" href="./">
+                <img src="../assets/favicon-32.png" srcset="../assets/apple-touch-icon.png 2x" width="38" height="38" alt="Savory Scoresのアプリアイコン">
+                Savory Scores
+            </a>
+            <nav class="top-nav" aria-label="メインメニュー">
+                <a href="#screenshots">スクリーンショット</a>
+                <a href="#how-it-works">使い方</a>
+                <a href="#guides">ガイド</a>
+                <a href="#faq">よくある質問</a>
+                <div class="lang-switch" role="group" aria-label="言語">
+                    <a href="../" hreflang="en" lang="en" title="English">EN</a>
+                    <a href="../fi/" hreflang="fi" lang="fi" title="Suomi">FI</a>
+                    <a href="../ja/" hreflang="ja" lang="ja" title="日本語" aria-current="page">JA</a>
+                </div>
+                <a class="nav-cta" href="https://apps.apple.com/fi/app/savory-scores/id6499091159">アプリを入手</a>
+            </nav>
+        </div>
+
+        <main id="main">
+            <!-- HERO -->
+            <header class="hero">
+                <div class="hero-copy" data-reveal="stagger">
+                    <img class="hero-logo" src="../assets/logo.webp" alt="Savory Scores" width="600" height="416">
+                    <p class="eyebrow">🇫🇮 日本食 · ヘルシンキ</p>
+                    <h1>ヘルシンキの美味しい日本食を、<em>料理ごとに</em>見つけよう。</h1>
+                    <p class="tagline">街中のカツ丼、ラーメン、寿司を比べよう。評価は<strong>「また注文したい？」</strong>に答えるだけ。次に何を頼むか、もう迷いません。</p>
+                    <div class="cta-row">
+                        <a class="store-cta" href="https://apps.apple.com/fi/app/savory-scores/id6499091159"><img class="app-store-badge" src="../app_store_badge_en.svg" alt="App StoreからSavory Scoresをダウンロード" width="180" height="60"></a>
+                        <span class="rating-note"><strong>★★★★★</strong> App Storeで5.0 · 無料</span>
+                    </div>
+                    <ul class="chips">
+                        <li>🍜 料理で検索</li>
+                        <li>🎯 本格的さで並べ替え</li>
+                        <li>🏆 自分だけのランキング</li>
+                    </ul>
+                </div>
+                <div class="hero-visual" data-reveal>
+                    <img class="mascot" src="../assets/mascot.webp" alt="" aria-hidden="true" width="760" height="596">
+                    <div class="shot"><img src="../assets/shot-1.webp" alt="Savory Scoresのスクリーンショット：カツ丼カテゴリーを検索すると、ヘルシンキのカツ丼が平均スコア順に表示される" width="660" height="1431" fetchpriority="high"></div>
+                    <span class="vote nope" aria-hidden="true">いいえ…</span>
+                    <span class="vote maybe" aria-hidden="true">多分？</span>
+                    <span class="vote yeah" aria-hidden="true">はい！</span>
+                </div>
+            </header>
+
+            <!-- DOWNLOAD -->
+            <section class="download-strip" id="download" aria-label="Savory Scoresをダウンロード">
+                <div class="download-inner" data-reveal>
+                    <a class="store-cta" href="https://apps.apple.com/fi/app/savory-scores/id6499091159"><img class="app-store-badge" src="../app_store_badge_en.svg" alt="App StoreからSavory Scoresを無料でダウンロード" width="180" height="60"></a>
+                    <span class="fact">無料<small>ダウンロード</small></span>
+                    <span class="fact">★ 5.0<small>App Store</small></span>
+                    <span class="fact">iPhone・iPad<small>iOS 18以降</small></span>
+                    <span class="fact">English · Suomi · 日本語<small>3か国語対応</small></span>
+                </div>
+            </section>
+
+            <!-- SCREENSHOTS -->
+            <section class="section" id="screenshots" aria-labelledby="screenshots-title">
+                <h2 id="screenshots-title" data-reveal>ヘルシンキの日本食を、一皿ずつ比べる</h2>
+                <p class="lead" data-reveal>お店の星評価では<em>何を注文すべきか</em>まではわかりません。Savory Scoresは料理そのものを評価するので、街中の牛丼をひとつのリストで比べられます。</p>
+                <div class="shots-track" data-reveal="stagger">
+                    <figure>
+                        <div class="shot"><img src="../assets/shot-1.webp" alt="Savory Scoresのスクリーンショット：カツ丼カテゴリーを検索すると、ヘルシンキのカツ丼が平均スコア順に表示される" width="660" height="1431" loading="lazy" decoding="async"></div>
+                        <figcaption><strong>食べ物のカテゴリーで検索</strong><span>「カツ丼」などの料理名を入力すると、ヘルシンキ中のお店がランキングで表示されます。</span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="shot"><img src="../assets/shot-2.webp" alt="Savory Scoresのスクリーンショット：Restaurant Kabukiの天ぷらを「いいえ」「多分」「はい」のボタンで評価" width="660" height="1431" loading="lazy" decoding="async"></div>
+                        <figcaption><strong>評価はかんたん</strong><span>質問はひとつだけ。また注文したい？ いいえ、多分、はい。</span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="shot"><img src="../assets/shot-3.webp" alt="Savory Scoresのスクリーンショット：スコアのスライダーが「はい 8/10」、Genki SushiとRavintola Kamomeの過去の天ぷらスコアも表示" width="660" height="1431" loading="lazy" decoding="async"></div>
+                        <figcaption><strong>ブレない評価</strong><span>過去のスコアを見ながら、10段階のスライダーで微調整できます。</span></figcaption>
+                    </figure>
+                    <figure>
+                        <div class="shot"><img src="../assets/shot-4.webp" alt="Savory Scoresのスクリーンショット：ヘルシンキの牛丼を本格的さ順に表示（ダークモード）" width="660" height="1431" loading="lazy" decoding="async"></div>
+                        <figcaption><strong>本格的さで並べ替え</strong><span>いちばん日本の味に近い一皿を見つけよう。</span></figcaption>
+                    </figure>
+                </div>
+            </section>
+
+            <!-- HOW IT WORKS -->
+            <section class="section" id="how-it-works" aria-labelledby="how-title">
+                <h2 id="how-title" data-reveal>使い方</h2>
+                <p class="lead" data-reveal>「食べたい」から街いちばんの一杯まで、3ステップ。</p>
+                <ol class="steps" data-reveal="stagger">
+                    <li>
+                        <span class="step-num" aria-hidden="true">1</span>
+                        <h3>日本食を検索</h3>
+                        <p>カツ丼、ラーメン、天ぷら、おにぎりなどを入力。ヘルシンキ中のお店の一皿が、実際の写真、お店の名前、平均スコアとともに表示され、スコア順や本格的さ順に並べ替えられます。</p>
+                    </li>
+                    <li>
+                        <span class="step-num" aria-hidden="true">2</span>
+                        <h3>ワンタップで評価</h3>
+                        <p>食べ終わったら、質問にひとつ答えるだけ。<strong>また注文したいですか？</strong> 過去のスコアを見ながら10段階のスライダーで微調整もできます。</p>
+                        <div class="vote-demo" aria-hidden="true"><span>いいえ…</span><span>多分？</span><span>はい！</span></div>
+                    </li>
+                    <li>
+                        <span class="step-num" aria-hidden="true">3</span>
+                        <h3>自分だけのランキング</h3>
+                        <p>同じカテゴリーの料理をいくつか評価すると、Savory Scoresが自動でランキングにしてくれます。料理、お店、カテゴリーを保存して、次に食べに行きましょう。</p>
+                    </li>
+                </ol>
+                <div class="made-for" data-reveal>
+                    <span class="flag" aria-hidden="true">📍</span>
+                    <p><strong>ヘルシンキのためのアプリ。</strong>Savory Scoresは、ヘルシンキ周辺の日本食をみんなで作るカタログです。レストランの料理はもちろん、「お買い物」タブではアジア食材店で買える商品も評価できます。フィンランド旅行の前に、気になる料理を保存しておくのもおすすめです。<a href="guides/japanese-food-finland.html">フィンランドの日本食 →</a></p>
+                </div>
+            </section>
+
+            <!-- GUIDES -->
+            <section class="section" id="guides" aria-labelledby="guides-title">
+                <h2 id="guides-title" data-reveal>ヘルシンキ日本食ガイド</h2>
+                <p class="lead" data-reveal>何を頼むか、本物の見分け方、そしてどこで食べられるか。</p>
+                <ul class="guide-grid" data-reveal="stagger">
+                    <li><a class="guide-card" href="guides/japanese-restaurants-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🏮</span>
+                        <h3>ヘルシンキの日本食レストラン</h3>
+                        <p>寿司カウンターから食堂まで、本格的なお店の見つけ方。フュージョン系ビュッフェとの見分け方も。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/best-ramen-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍜</span>
+                        <h3>ヘルシンキのラーメン</h3>
+                        <p>豚骨、塩、醤油、ヴィーガン。ヘルシンキで美味しい一杯を見つける方法。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/best-sushi-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍣</span>
+                        <h3>ヘルシンキの寿司</h3>
+                        <p>寿司カウンター、おまかせ、食べ放題。寿司の質の見極め方と、美味しいお店の探し方。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/authentic-japanese-restaurant.html">
+                        <span class="emoji" aria-hidden="true">🔍</span>
+                        <h3>本格的な日本食レストランの見分け方</h3>
+                        <p>メニュー、テーブル、お皿に表れる8つのサイン。席に着く前にチェック。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/donburi-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍚</span>
+                        <h3>ヘルシンキのカツ丼・牛丼・丼もの</h3>
+                        <p>ヘルシンキの丼もの事情と、日本の味に近い一杯を街中から探す方法。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/izakaya-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍶</span>
+                        <h3>ヘルシンキの居酒屋</h3>
+                        <p>ヘルシンキで居酒屋気分を味わうには。何を頼むか、どう楽しむか。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/japanese-lunch-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🍱</span>
+                        <h3>ヘルシンキの日本食ランチ</h3>
+                        <p>弁当、定食、ラーメン、丼。フィンランドのランチ文化と日本の定食の出会い。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/japanese-grocery-helsinki.html">
+                        <span class="emoji" aria-hidden="true">🛒</span>
+                        <h3>ヘルシンキの日本食材店</h3>
+                        <p>日本の食材やお菓子が買えるお店と、また買いたいおにぎりや調味料の見つけ方。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/japanese-food-finland.html">
+                        <span class="emoji" aria-hidden="true">🇫🇮</span>
+                        <h3>フィンランドの日本食</h3>
+                        <p>旅行者や移住したばかりの方へ。フィンランドの日本食事情と、最初の一歩。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                    <li><a class="guide-card" href="guides/rate-restaurant-dishes.html">
+                        <span class="emoji" aria-hidden="true">⭐</span>
+                        <h3>料理を評価するコツ</h3>
+                        <p>お店ではなく料理を評価する理由と、無理なく続けられる「ひとつの質問」の仕組み。</p>
+                        <span class="read-more">ガイドを読む</span>
+                    </a></li>
+                </ul>
+            </section>
+
+            <!-- FAQ -->
+            <section class="section faq" id="faq" aria-labelledby="faq-title">
+                <h2 id="faq-title" data-reveal>よくある質問</h2>
+                <p class="lead" data-reveal>簡単な回答と、詳しいガイドへのリンクです。</p>
+                <div class="faq-list" data-reveal>
+                    <details>
+                        <summary>ヘルシンキで本格的な日本食はどこで食べられますか？</summary>
+                        <div class="faq-answer">
+                            <p>お店全体の星評価ではなく、料理ごとの評価を見るのが近道です。Savory Scoresでは、カツ丼、ラーメン、天ぷらなどのカテゴリーでヘルシンキの日本食を検索し、スコア順や本格的さ順に並べ替えられます。</p>
+                            <a class="learn-more" href="guides/japanese-restaurants-helsinki.html">詳しく：ヘルシンキの日本食レストラン →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>ヘルシンキで美味しいラーメンはどこですか？</summary>
+                        <div class="faq-answer">
+                            <p>好みのスープ次第です。豚骨、醤油、塩、味噌、ヴィーガン。Savory Scoresで「ラーメン」を検索すれば、ヘルシンキで評価されたすべての一杯を比べられ、自分のラーメンランキングも作れます。</p>
+                            <a class="learn-more" href="guides/best-ramen-helsinki.html">詳しく：ヘルシンキのラーメン →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>ヘルシンキで美味しいお寿司はどこで食べられますか？</summary>
+                        <div class="faq-answer">
+                            <p>サーモンばかりの食べ放題は避けて、握りや刺身がメニューの中心で、シャリが人肌の温度、ネタの種類が多いお店を選びましょう。Savory Scoresでは「盛り合わせ」や「ちらし」など具体的な料理名で検索し、実際の写真を確認できます。</p>
+                            <a class="learn-more" href="guides/best-sushi-helsinki.html">詳しく：ヘルシンキの寿司 →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>本格的な日本食レストランはどう見分けますか？</summary>
+                        <div class="faq-answer">
+                            <p>メニューが絞られている、料理名が日本語、定食がある、ちゃんとした短粒米を使っている、寿司以外の料理もある。これらはすべて良いサインです。Savory Scoresでは、味とは別に本格的さも評価できます。</p>
+                            <a class="learn-more" href="guides/authentic-japanese-restaurant.html">詳しく：本格的な日本食レストランの8つのサイン →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>ヘルシンキでカツ丼や牛丼は食べられますか？</summary>
+                        <div class="faq-answer">
+                            <p>はい、何軒かのお店で食べられます。ただし味はお店によってかなり違います。Savory Scoresで「カツ丼」を検索すると、ヘルシンキのカツ丼がスコア順に写真付きで表示されます。</p>
+                            <a class="learn-more" href="guides/donburi-helsinki.html">詳しく：ヘルシンキのカツ丼・牛丼・丼もの →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>ヘルシンキに居酒屋はありますか？</summary>
+                        <div class="faq-answer">
+                            <p>あります。焼き鳥、唐揚げ、たこ焼きなどの居酒屋風の小皿料理と日本のお酒を出すお店がいくつかあります。一皿ずつSavory Scoresで評価しておけば、次に何を頼むべきか忘れません。</p>
+                            <a class="learn-more" href="guides/izakaya-helsinki.html">詳しく：ヘルシンキの居酒屋 →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>ヘルシンキで日本の食材はどこで買えますか？</summary>
+                        <div class="faq-answer">
+                            <p>ヘルシンキ中心部やハカニエミのアジア食材店で、日本のお米、調味料、麺類、お菓子が買えます。大きなスーパーでも基本的なものは揃います。Savory Scoresの「お買い物」タブでは、おにぎりや餃子など市販品の評価もできます。</p>
+                            <a class="learn-more" href="guides/japanese-grocery-helsinki.html">詳しく：ヘルシンキの日本食材店 →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>ヘルシンキで日本食ランチを食べられるお店は？</summary>
+                        <div class="faq-answer">
+                            <p>ヘルシンキの多くの日本食レストランが平日ランチを出しています。定食、丼、ラーメン、寿司セットなどで、夜より手頃な価格が一般的です。Savory Scoresで料理を検索して、今日のランチを選びましょう。</p>
+                            <a class="learn-more" href="guides/japanese-lunch-helsinki.html">詳しく：ヘルシンキの日本食ランチ →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>ヘルシンキ以外でもSavory Scoresは使えますか？</summary>
+                        <div class="faq-answer">
+                            <p>Savory Scoresはヘルシンキの日本食のカタログなので、ヘルシンキ周辺に住んでいる方や訪れる方に最も役立ちます。旅行者の方は、出発前に料理を見て保存しておけます。</p>
+                            <a class="learn-more" href="guides/japanese-food-finland.html">詳しく：フィンランドの日本食 →</a>
+                        </div>
+                    </details>
+                    <details>
+                        <summary>Savory Scoresは無料ですか？評価はどのように行いますか？</summary>
+                        <div class="faq-answer">
+                            <p>はい、Savory ScoresはiPhone・iPad向けの無料アプリです。料理の評価は「また注文したいですか？」という質問に「いいえ」「多分」「はい」で答えるだけ。過去のスコアを見ながら10段階のスライダーで微調整もできます。</p>
+                            <a class="learn-more" href="guides/rate-restaurant-dishes.html">詳しく：料理を評価するコツ →</a>
+                        </div>
+                    </details>
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section class="section final-cta" aria-labelledby="cta-title">
+                <div class="final-card" data-reveal="stagger">
+                    <h2 id="cta-title">次のお気に入りの一皿は、もうヘルシンキにあります。</h2>
+                    <p>Savory Scoresを無料でダウンロードして、食べたいものを検索。<strong>はい！</strong>をひとつずつ重ねて、ヘルシンキの本格的な日本食カタログを一緒に作りましょう。</p>
+                    <a class="store-cta" href="https://apps.apple.com/fi/app/savory-scores/id6499091159"><img class="app-store-badge" src="../app_store_badge_en.svg" alt="App StoreからSavory Scoresをダウンロード" width="180" height="60" loading="lazy"></a>
+                    <p class="contact">ご質問やご意見は savoryscores (at) gmail.com まで</p>
+                    <img class="final-mascot" src="../assets/mascot.webp" alt="おにぎりを夢見るSavory Scoresのネコのマスコット" width="760" height="596" loading="lazy" decoding="async">
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <a class="footer-brand" href="./">
+                <img src="../assets/favicon-32.png" srcset="../assets/apple-touch-icon.png 2x" width="32" height="32" alt="" aria-hidden="true">
+                Savory Scores
+            </a>
+            <p class="footer-tag">ヘルシンキの本格的な日本食を、料理ごとに評価するカタログ。</p>
+            <nav class="footer-guides" aria-label="ガイド">
+                <a href="guides/japanese-restaurants-helsinki.html">ヘルシンキの日本食レストラン</a>
+                <a href="guides/best-ramen-helsinki.html">ヘルシンキのラーメン</a>
+                <a href="guides/best-sushi-helsinki.html">ヘルシンキの寿司</a>
+                <a href="guides/authentic-japanese-restaurant.html">本格的な日本食レストランの見分け方</a>
+                <a href="guides/donburi-helsinki.html">ヘルシンキのカツ丼・牛丼・丼もの</a>
+                <a href="guides/izakaya-helsinki.html">ヘルシンキの居酒屋</a>
+                <a href="guides/japanese-lunch-helsinki.html">ヘルシンキの日本食ランチ</a>
+                <a href="guides/japanese-grocery-helsinki.html">ヘルシンキの日本食材店</a>
+                <a href="guides/japanese-food-finland.html">フィンランドの日本食</a>
+                <a href="guides/rate-restaurant-dishes.html">料理を評価するコツ</a>
+            </nav>
+            <nav aria-label="フッター">
+                <a href="https://apps.apple.com/fi/app/savory-scores/id6499091159">App Storeでダウンロード</a>
+                <a href="https://virtalas.github.io/savory-scores-app/terms.html">利用規約</a>
+                <a href="https://virtalas.github.io/savory-scores-app/privacy-policy.html">プライバシーポリシー</a>
+            </nav>
+            <nav class="footer-langs" aria-label="言語">
+                <a href="../" hreflang="en" lang="en">English</a>
+                <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+                <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+            </nav>
+            <p class="copyright">&copy; 2026 Lasse Virtanen · ヘルシンキ発</p>
+        </footer>
+    </body>
+</html>

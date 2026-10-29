@@ -1,47 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/japanese-restaurants-helsinki.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-restaurants-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-restaurants-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-restaurants-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-restaurants-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-restaurants-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-restaurants-helsinki.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/best-ramen-helsinki.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/best-ramen-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/best-ramen-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/best-ramen-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/best-ramen-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/best-ramen-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/best-ramen-helsinki.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/best-sushi-helsinki.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/best-sushi-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/best-sushi-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/best-sushi-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/best-sushi-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/best-sushi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/best-sushi-helsinki.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/authentic-japanese-restaurant.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/authentic-japanese-restaurant.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/authentic-japanese-restaurant.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/authentic-japanese-restaurant.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/authentic-japanese-restaurant.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/authentic-japanese-restaurant.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/authentic-japanese-restaurant.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/donburi-helsinki.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/donburi-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/donburi-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/donburi-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/donburi-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/donburi-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/donburi-helsinki.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/izakaya-helsinki.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/izakaya-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/izakaya-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/izakaya-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/izakaya-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/izakaya-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/izakaya-helsinki.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/japanese-lunch-helsinki.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-lunch-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-lunch-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-lunch-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-lunch-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-lunch-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-lunch-helsinki.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/japanese-grocery-helsinki.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-grocery-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-grocery-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-grocery-helsinki.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-grocery-helsinki.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-grocery-helsinki.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-grocery-helsinki.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/japanese-food-finland.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-food-finland.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-food-finland.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-food-finland.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-food-finland.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/japanese-food-finland.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/japanese-food-finland.html"/>
     </url>
     <url>
         <loc>https://virtalas.github.io/savory-scores-app/website/guides/rate-restaurant-dishes.html</loc>
         <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/rate-restaurant-dishes.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/fi/guides/rate-restaurant-dishes.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/rate-restaurant-dishes.html"/>
+    </url>
+    <url>
+        <loc>https://virtalas.github.io/savory-scores-app/website/ja/guides/rate-restaurant-dishes.html</loc>
+        <lastmod>2026-10-28</lastmod>
+        <xhtml:link rel="alternate" hreflang="en" href="https://virtalas.github.io/savory-scores-app/website/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://virtalas.github.io/savory-scores-app/website/fi/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="https://virtalas.github.io/savory-scores-app/website/ja/guides/rate-restaurant-dishes.html"/>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://virtalas.github.io/savory-scores-app/website/guides/rate-restaurant-dishes.html"/>
     </url>
 </urlset>

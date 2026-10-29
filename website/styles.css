@@ -33,7 +33,7 @@ body {
     flex-direction: column;
     align-items: center;
     background: linear-gradient(180deg,
-        #2b8cff 0%,
+        #006ef5 0%,
         #0a6cff 18%,
         #0a5fe3 40%,
         #0848b8 66%,
@@ -158,6 +158,49 @@ main {
 .top-nav .nav-cta:hover {
     text-decoration: none;
     transform: translateY(-1px);
+}
+
+.lang-switch {
+    display: flex;
+    padding: 3px;
+    border-radius: 999px;
+    background: var(--glass);
+    border: 1px solid var(--glass-border);
+}
+
+.top-nav .lang-switch a {
+    padding: 4px 9px;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    opacity: 0.8;
+}
+
+.top-nav .lang-switch a:hover {
+    opacity: 1;
+    text-decoration: none;
+    background: var(--glass);
+}
+
+.top-nav .lang-switch a[aria-current] {
+    background: white;
+    color: var(--blue);
+    opacity: 1;
+}
+
+/* Japanese: break headings at phrase boundaries; Finnish: hyphenate long compounds. */
+:lang(ja) :is(h1, h2, h3) {
+    word-break: auto-phrase;
+    letter-spacing: 0;
+}
+
+:lang(ja) {
+    line-break: strict;
+}
+
+:lang(fi) :is(h1, h2, h3) {
+    hyphens: auto;
 }
 
 /* Hero -------------------------------------------------------------- */
@@ -785,6 +828,10 @@ main {
     opacity: 1;
 }
 
+.site-footer .footer-langs a {
+    font-size: 0.86rem;
+}
+
 .site-footer .footer-guides a {
     font-size: 0.86rem;
     opacity: 0.75;
@@ -970,8 +1017,9 @@ article.guide figure.inline-shot figcaption {
     font-size: 1rem;
 }
 
-.app-cta strong {
+article.guide .app-cta strong {
     color: white;
+    font-weight: 800;
 }
 
 .app-cta .app-store-badge {
@@ -1050,8 +1098,12 @@ article.guide figure.inline-shot figcaption {
 /* Responsive -------------------------------------------------------------- */
 
 @media (max-width: 860px) {
-    .top-nav a:not(.nav-cta) {
+    .top-nav > a:not(.nav-cta) {
         display: none;
+    }
+
+    .top-nav {
+        gap: 10px;
     }
 
     .rating-note {
@@ -1107,6 +1159,19 @@ article.guide figure.inline-shot figcaption {
         grid-template-columns: 1fr;
         justify-items: center;
         text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    /* Icon-only brand so the language switcher and CTA fit on one row. */
+    .brand {
+        font-size: 0;
+        gap: 0;
+    }
+
+    .top-nav .nav-cta {
+        white-space: nowrap;
+        padding: 8px 13px;
     }
 }
 
@@ -1197,15 +1262,15 @@ article.guide .data-note {
 }
 
 .data-table td.photo {
-    width: 66px;
-    min-width: 66px;
+    width: 120px;
+    min-width: 120px;
     padding-right: 0;
 }
 
 .data-table .thumb {
     display: block;
-    width: 58px;
-    height: 44px;
+    width: 112px;
+    height: 84px;
     object-fit: cover;
     border-radius: 10px;
     background: #e8f0fd;
@@ -1215,7 +1280,19 @@ article.guide .data-note {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.4rem;
+    font-size: 2rem;
+}
+
+@media (max-width: 480px) {
+    .data-table td.photo {
+        width: 96px;
+        min-width: 96px;
+    }
+
+    .data-table .thumb {
+        width: 88px;
+        height: 66px;
+    }
 }
 
 .sr-only {
